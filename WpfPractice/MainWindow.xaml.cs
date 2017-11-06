@@ -24,5 +24,19 @@ namespace WpfPractice
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, RoutedEventArgs e)
+        {
+            string moji = (string)btn.Content; //　object型のbtn.ContentをString型に変換
+
+            if (moji == "Ishikawa") // ボタンの表記(Content)がIshikawaならばクリックでGoemonに変更
+            {
+                btn.Content = "Goemon";
+            }
+            else if (moji == "Goemon")
+            {
+                btn.Content = "Ishikawa";
+            }
+        }
     }
 }
