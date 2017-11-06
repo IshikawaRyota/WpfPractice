@@ -8,6 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button Name="btn" Content="Ishikawa" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="210,150,0,0" Click="btn_Click"/>
+        <CheckBox Name="cbx"  Content="japanese" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,78,0,0" Checked="cbx_Checked"/>
 
     </Grid>
 </Window>

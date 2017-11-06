@@ -38,5 +38,18 @@ namespace WpfPractice
                 btn.Content = "Ishikawa";
             }
         }
+
+        private void cbx_Checked(object sender, RoutedEventArgs e)
+        {
+            // btnの表記を日本語に変更するチェックボックス
+            if ((string)btn.Content == "Ishikawa")
+            {
+                btn.Content = "石川";
+            }
+            else if ((string)btn.Content == "Goemon")
+            {
+                btn.Content = "五右衛門";
+            }
+        }
     }
 }
